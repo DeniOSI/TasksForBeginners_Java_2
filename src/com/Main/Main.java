@@ -1,9 +1,6 @@
 package com.Main;
 
-import com.tasks2.CalcSalary;
-import com.tasks2.DoubleOrInt;
-import com.tasks2.MultiTable;
-import com.tasks2.Polindrome;
+import com.tasks2.*;
 
 /**
  * Created by Osipenko on 27.10.2016.
@@ -49,8 +46,14 @@ public class Main {
 
 
         //region  multitable
-        MultiTable mtab = new MultiTable(11);
-        mtab.PrintTable();
+//        MultiTable mtab = new MultiTable(11);
+//        mtab.PrintTable();
+        //endregion
+
+        //region FromTwoToOnew
+        int[][] arr = {{2, 4}, {6, 8}, {1, 9}, {33, 99}};
+        FromToOne fto = new FromToOne(arr);
+        fto.Print();
         //endregion
     }
 }
