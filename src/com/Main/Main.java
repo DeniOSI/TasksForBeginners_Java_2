@@ -2,6 +2,7 @@ package com.Main;
 
 import com.tasks2.CalcSalary;
 import com.tasks2.DoubleOrInt;
+import com.tasks2.MultiTable;
 import com.tasks2.Polindrome;
 
 /**
@@ -44,6 +45,12 @@ public class Main {
         System.out.println(p3.Polin());
         Polindrome pl2 = new Polindrome("12331");
         System.out.println(pl2.Polin());
+        //endregion
+
+
+        //region  multitable
+        MultiTable mtab = new MultiTable(11);
+        mtab.PrintTable();
         //endregion
     }
 }
