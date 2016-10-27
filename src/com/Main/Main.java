@@ -56,10 +56,16 @@ public class Main {
 //        fto.Print();
         //endregion
 
-        //region SecAndMin
+        //region ChangeCollsAndRows
         int[][] arr = {{2, 4}, {6, 8}};
-        SecAndMin sam = new SecAndMin(4);
-        System.out.println(sam.toString());
+        ChangeCollsAndRows ccar = new ChangeCollsAndRows(arr);
+        ccar.PrintInf();
+        //endregion
+
+        //region SecAndMin
+
+//        SecAndMin sam = new SecAndMin(4);
+//        System.out.println(sam.toString());
         //endregion
     }
 }

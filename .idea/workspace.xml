@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8daccff-bd94-4bf2-8a7c-1077e9cc6eea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tasks2/SecAndMin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tasks2/ChangeCollsAndRows.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Main/Main.java" afterPath="$PROJECT_DIR$/src/com/Main/Main.java" />
     </list>
@@ -49,19 +49,20 @@
         <entry file="file://$PROJECT_DIR$/src/com/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
               <folding>
                 <element signature="e#165#185#0" expanded="false" />
                 <element signature="e#456#471#0" expanded="false" />
                 <element signature="e#659#678#0" expanded="false" />
                 <element signature="e#1099#1119#0" expanded="false" />
                 <element signature="e#1226#1248#0" expanded="false" />
+                <element signature="e#1592#1610#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecAndMin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecAndMin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tasks2/SecAndMin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
@@ -74,6 +75,16 @@
                 <element signature="e#363#364#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeCollsAndRows.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tasks2/ChangeCollsAndRows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,8 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/tasks2/MultiTable.java" />
         <option value="$PROJECT_DIR$/src/com/tasks2/FromToOne.java" />
-        <option value="$PROJECT_DIR$/src/com/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/tasks2/SecAndMin.java" />
+        <option value="$PROJECT_DIR$/src/com/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/tasks2/ChangeCollsAndRows.java" />
       </list>
     </option>
   </component>
@@ -518,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477597159497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Seconds and minutes in days">
+      <created>1477598054744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477598054744</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,7 +584,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MultiTable" />
     <MESSAGE value="From Two to One" />
-    <option name="LAST_COMMIT_MESSAGE" value="From Two to One" />
+    <MESSAGE value="Seconds and minutes in days" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seconds and minutes in days" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,20 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-          <folding>
-            <element signature="e#165#185#0" expanded="false" />
-            <element signature="e#456#471#0" expanded="false" />
-            <element signature="e#659#678#0" expanded="false" />
-            <element signature="e#1099#1119#0" expanded="false" />
-            <element signature="e#1226#1248#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tasks2/SecAndMin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -627,6 +633,29 @@
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#165#185#0" expanded="false" />
+            <element signature="e#456#471#0" expanded="false" />
+            <element signature="e#659#678#0" expanded="false" />
+            <element signature="e#1099#1119#0" expanded="false" />
+            <element signature="e#1226#1248#0" expanded="false" />
+            <element signature="e#1592#1610#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tasks2/ChangeCollsAndRows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
