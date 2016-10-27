@@ -51,9 +51,15 @@ public class Main {
         //endregion
 
         //region FromTwoToOnew
-        int[][] arr = {{2, 4}, {6, 8}, {1, 9}, {33, 99}};
-        FromToOne fto = new FromToOne(arr);
-        fto.Print();
+//        int[][] arr = {{2, 4}, {6, 8}, {1, 9}, {33, 99}};
+//        FromToOne fto = new FromToOne(arr);
+//        fto.Print();
+        //endregion
+
+        //region SecAndMin
+        int[][] arr = {{2, 4}, {6, 8}};
+        SecAndMin sam = new SecAndMin(4);
+        System.out.println(sam.toString());
         //endregion
     }
 }
